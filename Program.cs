@@ -13,8 +13,9 @@ namespace PlayingWithDataStructures
         {
             // Excersize 1
             Console.WriteLine("Hey there stranger, thanks for taking you time to review my code" + "\n" + "excercise 1");
+            Console.WriteLine("Using Queue to display number in the right order");
            
-            // Using queue
+            // Using queue to print the numbers as they were entered (FIFO)
             int[] numbers = { 2, 5, 7 };
             Queue<int> numbersInQueue = new Queue <int>();
 
@@ -29,8 +30,8 @@ namespace PlayingWithDataStructures
                 Console.WriteLine(i);
             }
 
-            // Using stack
-            Console.WriteLine("Using Stack");
+            // Using stack to solve the excercise    (LIFO)
+            Console.WriteLine("Using Stack to display in reverse order");
             Stack<int> numbersInStack = new Stack <int>();
             int[] sameNumbers = { 2, 5, 7 };                              
 
@@ -47,8 +48,6 @@ namespace PlayingWithDataStructures
                 Console.WriteLine(i);
             }
 
-
-            // Excersie 2 (calling the constructor from other class)
         }
     }
 }
@@ -56,7 +55,9 @@ namespace PlayingWithDataStructures
 
 /*
  * 
- * Write a program in C# Sharp to read n number of values and display it in reverse order. Try to use one of the structures we discussed in class.
+ * Write a program in C# Sharp to read n number of values and display it in reverse order. 
+ * 
+ * Try to use one of the structures we discussed in class.
 
 
 
